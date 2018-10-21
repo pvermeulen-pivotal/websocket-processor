@@ -1,0 +1,12 @@
+org\springframework\cloud\stream\app\websocket\processor\WebsocketProcessorServer.class
+org\springframework\cloud\stream\app\websocket\processor\WebsocketProcessorServerHandler.class
+org\springframework\cloud\stream\app\websocket\processor\trace\InMemoryTraceRepository.class
+org\springframework\cloud\stream\app\websocket\transformer\WebsocketByteTransformer.class
+org\springframework\cloud\stream\app\websocket\processor\WebsocketChannelInterceptor.class
+org\springframework\cloud\stream\app\websocket\processor\WebsocketChannelHolder.class
+META-INF\spring-configuration-metadata.json
+org\springframework\cloud\stream\app\websocket\processor\WebsocketProcessorConfiguration.class
+org\springframework\cloud\stream\app\websocket\processor\trace\Trace.class
+org\springframework\cloud\stream\app\websocket\process\actuator\WebsocketProcessorTraceEndpoint.class
+org\springframework\cloud\stream\app\websocket\processor\WebsocketProcessorProperties.class
+org\springframework\cloud\stream\app\websocket\processor\WebsocketProcessorServerInitializer.class

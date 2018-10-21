@@ -1,0 +1,77 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.process.actuator.WebsocketProcessorTraceEndpoint",
+      "name": "endpoints.websocketprocessortrace",
+      "type": "org.springframework.cloud.stream.app.websocket.process.actuator.WebsocketProcessorTraceEndpoint"
+    },
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.process.actuator.WebsocketProcessorTraceEndpoint",
+      "name": "management.endpoint.websocketprocessortrace",
+      "type": "org.springframework.cloud.stream.app.websocket.process.actuator.WebsocketProcessorTraceEndpoint"
+    },
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.processor.WebsocketProcessorProperties",
+      "name": "websocket",
+      "type": "org.springframework.cloud.stream.app.websocket.processor.WebsocketProcessorProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.process.actuator.WebsocketProcessorTraceEndpoint",
+      "defaultValue": "0ms",
+      "name": "management.endpoint.websocketprocessortrace.cache.time-to-live",
+      "description": "Maximum time that a response can be cached.",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.process.actuator.WebsocketProcessorTraceEndpoint",
+      "defaultValue": true,
+      "name": "management.endpoint.websocketprocessortrace.enabled",
+      "description": "Whether to enable the websocketprocessortrace endpoint.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.processor.WebsocketProcessorProperties",
+      "defaultValue": "deviceId",
+      "name": "websocket.json-field-to-match",
+      "description": "the name of the field in the JSON payload used for matching incoming and  outgoing request messages to proper channel. Default is <tt>deviceId<\/tt>",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.processor.WebsocketProcessorProperties",
+      "name": "websocket.log-level",
+      "description": "the logLevel for netty channels. Default is <tt>WARN<\/tt>",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.processor.WebsocketProcessorProperties",
+      "defaultValue": "\/websocket",
+      "name": "websocket.path",
+      "description": "the path on which a WebsocketSink consumer needs to connect. Default is <tt>\/websocket<\/tt>",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.processor.WebsocketProcessorProperties",
+      "defaultValue": 9292,
+      "name": "websocket.port",
+      "description": "the port on which the Netty server listens. Default is <tt>9292<\/tt>",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.processor.WebsocketProcessorProperties",
+      "defaultValue": false,
+      "name": "websocket.ssl",
+      "description": "whether or not to create a {@link io.netty.handler.ssl.SslContext}",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.stream.app.websocket.processor.WebsocketProcessorProperties",
+      "defaultValue": 1,
+      "name": "websocket.threads",
+      "description": "the number of threads for the Netty {@link io.netty.channel.EventLoopGroup}. Default is <tt>1<\/tt>",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

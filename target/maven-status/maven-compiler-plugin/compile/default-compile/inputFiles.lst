@@ -1,0 +1,11 @@
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\processor\WebsocketProcessorServerHandler.java
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\processor\WebsocketProcessorServer.java
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\processor\WebsocketProcessorProperties.java
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\processor\trace\InMemoryTraceRepository.java
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\processor\WebsocketChannelHolder.java
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\processor\WebsocketProcessorConfiguration.java
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\processor\WebsocketProcessorServerInitializer.java
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\processor\trace\Trace.java
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\process\actuator\WebsocketProcessorTraceEndpoint.java
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\processor\WebsocketChannelInterceptor.java
+C:\Temp\cloud-native-data-workshop\websocket-processor\websocket-processor\src\main\java\org\springframework\cloud\stream\app\websocket\transformer\WebsocketByteTransformer.java

@@ -1,0 +1,4 @@
+org.springframework.cloud.stream.app.websocket.process.actuator
+org.springframework.cloud.stream.app.websocket.processor
+org.springframework.cloud.stream.app.websocket.processor.trace
+org.springframework.cloud.stream.app.websocket.transformer
